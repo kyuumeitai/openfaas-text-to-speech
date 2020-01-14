@@ -1,7 +1,7 @@
 #!/bin/sh
 UUID=$(cat /proc/sys/kernel/random/uuid)
 
-export language="en-us"
+export language="es-es"
 
 if [ ! -z "${Http_X_Language}" ] ;
 then
